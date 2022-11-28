@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 
 body{
@@ -10,6 +11,9 @@ nav{
      background-color: black;
      color: white;
      padding: 20px 50px;
+      position: sticky;
+     top:0;
+     z-index: 1;
 }
 .navTop{
      display: flex;
